@@ -1,0 +1,50 @@
+<div class="position-relative">
+  <div class="fixed-top">
+    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+      <div class="card-header">This is Top-Left Position</div>
+      <div class="card-body">
+        <h5 class="card-title">Two Way Data Binding</h5>
+        <p class="card-text">{{text_data}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-top">
+    <div class="float-right">
+      <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+        <div class="card-header">This is Top-right Position</div>
+        <div class="card-body">
+          <h5 class="card-title">Two Way Data Binding</h5>
+          <p class="card-text">{{text_data}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed-bottom">
+    <div class="float-right">
+      <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">This is Bottom-Right Position</div>
+        <div class="card-body">
+          <h5 class="card-title">Two Way Data Binding</h5>
+          <p class="card-text">{{text_data}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="fixed-bottom">
+    <div class="float-left">
+      <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">This is Bottom-Left Position</div>
+        <div class="card-body">
+          <h5 class="card-title">Two Way Data Binding</h5>
+          <p class="card-text">{{text_data}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="center-box">
+    <input type="text" class="inp" placeholder="Enter Your Text Here" [(ngModel)]="text_data">
+  </div>
+</div>

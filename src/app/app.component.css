@@ -1,0 +1,12 @@
+.custom {
+  margin: 200px;
+}
+
+.inp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 340px;
+  text-align: center;
+  display: flex;
+}
